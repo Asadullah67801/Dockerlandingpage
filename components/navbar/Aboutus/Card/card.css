@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+   
+}
+.btn-contact{
+
+cursor: pointer;
+    background-color: #1354D4;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.card-section{
+    border-bottom-right-radius:  90% 10%;
+    border-bottom-left-radius:  90% 10%;
+     
+    padding: 50px 90px 0px 90px;
+    background-color: gainsboro;
+    text-align: center;
+
+}
+
+.middle--content{
+    padding:20px 0;
+}
+.card-section h1{
+    margin-bottom: 20px;
+}
+
+
+@media(min-width:768px){
+
+
+
+
+.card-container{
+    
+
+  display: flex;
+  flex-wrap: wrap;
+
+  
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-details{
+    font-size: 12px;
+    padding: 15px 0;
+}
+.card{
+    width:200px;
+    border-radius: 5px;
+margin: 10px 10px;
+    height: 280px;
+    background-color: white;
+
+}
+.card h4{
+margin-bottom: 10px;
+}
+.fa-brands{
+    font-size: 14px;
+
+    background-color: rgb(0, 140, 255);
+}
+.image-container{
+    padding-right: 50px;
+}
+.cta-section{
+    display:flex;
+   justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.card img{
+    width: 150px;
+    padding-top: 20px;
+   
+}
+
+}
+@media(max-width:320px){
+
+
+    .card{
+        width: 100%;
+        background-color: white;
+        border:2px solid gray;
+    }
+   
+}
+
+
+@media(max-width:700px){
+    .card-container{
+       
+      
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .card h4{
+        margin-bottom: 10px;
+    }
+    .card img{
+        width: 100%;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-top:20px;
+   
+    }
+    .card-details{
+        margin-bottom: 20px;
+    }
+    .card{
+        border-radius: 10px;
+        margin: 10px 0;
+        background-color: white;
+    }
+    .card-details{
+        font-size: 10px;
+        padding: 20px 0;
+    }
+}
+@media(max-width:320px){
+    .card-container{
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .card img{
+        width: 100%;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-top:20px;
+   
+    }
+    .card-details{
+        margin-bottom: 20px;
+    }
+    .cta-section img{
+        width: 90px;
+    }
+    .cta-section{
+        padding-bottom: 30px;
+    }
+    .card{
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    .btn-contact{
+        padding: 5px 17px;
+    }
+    .card-details{
+        font-size: 10px;
+        padding: 20px 0;
+    }
+}
